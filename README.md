@@ -27,21 +27,21 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
 - Run from a new terminal (cmd.exe in Windows and Terminal in Mac/Linux)
     >   
         cd Documents 
-        git clone https://github.com/ChiaraFor96/fitstic-nosql-2025.git
-- All the files will be in the folder Documents\fitstic-nosql-2025
+        git clone [https://github.com/ChiaraFor96/fitstic-nosql-2025.git](https://github.com/ManuelePasini/NoSQL_DBMS_Course_2026.git)
+- All the files will be in the folder Documents\NoSQL_DBMS_Course_2026
 
 ## Running the software and download slides
-- __***REMEMBER***: do not change (modify or delete) files in the directory "fitstic-nosql-2025"__, just copy a file changing the name for have your own version.
+- __***REMEMBER***: do not change (modify or delete) files in the directory "NoSQL_DBMS_Course_2026"__, just copy a file changing the name for have your own version.
 
 - Open a new terminal (cmd.exe in Windows and Terminal in Mac/Linux) and run the following commands:
     - Windows
         >
-            cd Documents\fitstic-nosql-2025
+            cd Documents\NoSQL_DBMS_Course_2026
             cd code
             .\start.bat
     - Linux / Mac
         > 
-            cd Documents/fitstic-nosql-2025
+            cd Documents/NoSQL_DBMS_Course_2026
             cd code
             sh start.sh
     
