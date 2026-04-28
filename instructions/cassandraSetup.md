@@ -4,7 +4,7 @@
 
 ### Deploy Cassandra
 
-- Open {FITSTIC_FOLDER}/code/docker-compose.yml  through some IDE (e.g., Visual Studio Code, Visual Studio) and comment each service except Cassandra (by selecting and then commenting the whole block via CTRL + ù )
+- Open {PROJECT_FOLDER}/code/docker-compose.yml  through some IDE (e.g., Visual Studio Code, Visual Studio) and comment each service except Cassandra (by selecting and then commenting the whole block via CTRL + ù )
 ```yaml
   # neo4j:
   #   image: neo4j:5.2
