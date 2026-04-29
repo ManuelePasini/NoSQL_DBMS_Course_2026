@@ -9,6 +9,7 @@ docker system prune -f
 FOR /f "tokens=*" %%i IN ("docker volume ls -qf dangling=true") DO docker volume rm %%i
 
 REM Starting docker containers
+echo "----------------------------------------------------------------------------------------------------------"
 docker-compose down
 docker-compose up --build -d %*
 timeout /t 20 /nobreak
