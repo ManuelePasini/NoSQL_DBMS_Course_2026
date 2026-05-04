@@ -36,12 +36,12 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
 - Open a new terminal (cmd.exe in Windows and Terminal in Mac/Linux) and run the following commands:
     - Windows
         >
-            cd Documents\NoSQL_DBMS_Course_2026
+            cd {path_to_your_folder}\NoSQL_DBMS_Course_2026
             cd code
             .\start.bat
     - Linux / Mac
         > 
-            cd Documents/NoSQL_DBMS_Course_2026
+            cd {path_to_your_folder}/NoSQL_DBMS_Course_2026
             cd code
             sh start.sh
     
