@@ -2,25 +2,25 @@ version: "3.9"
 services:
 
   # # Image of the MySQL database
-  mysql:
-    image: mysql:5.7
-    hostname: mysql
-    container_name: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_USER}
-      MYSQL_DATABASE: ${MYSQL_PWD}
-      MYSQL_TCP_PORT: ${MYSQL_PORT}
-    expose:
-      - ${MYSQL_PORT}
-    ports:
-      - "${MYSQL_PORT}:${MYSQL_PORT}"
-    healthcheck:
-      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
-      timeout: 5s
-      retries: 10
-    networks:
-      - default
+  # mysql:
+  #   image: mysql:5.7
+  #   hostname: mysql
+  #   container_name: mysql
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: ${MYSQL_USER}
+  #     MYSQL_DATABASE: ${MYSQL_PWD}
+  #     MYSQL_TCP_PORT: ${MYSQL_PORT}
+  #   expose:
+  #     - ${MYSQL_PORT}
+  #   ports:
+  #     - "${MYSQL_PORT}:${MYSQL_PORT}"
+  #   healthcheck:
+  #     test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+  #     timeout: 5s
+  #     retries: 10
+  #   networks:
+  #     - default
 
   # Populate the MySQL database when the database is ready (i.e., is healthy)
   mysql-seed:
